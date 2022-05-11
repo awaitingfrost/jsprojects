@@ -13,6 +13,7 @@ body {
   flex-direction: column;
 
   align-items: center;
+
   min-height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -27,11 +28,17 @@ h1 {
 
 .countdown-container {
   display: flex;
-  justify-content: center;
 }
 
 .big-text {
   font-size: 5rem;
   line-height: 1;
   margin: 0 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+.countdown-el span {
+  font-size: 2rem;
 }
